@@ -24,6 +24,7 @@ def process_numbers(numbers: str) -> str:
 
     :return: обработанная строка
     """
+    replacement = {'1': 'uno', '2': 'two', '3': ''}
     result = None
     return result
 
