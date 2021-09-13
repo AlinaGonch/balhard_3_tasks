@@ -24,8 +24,6 @@ def count_words(str_to_count: str) -> int:
     """
 
     result = len(str_to_count.split(' '))
-    if result == 0:
-        return result
     return result
 
 
